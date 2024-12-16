@@ -1,0 +1,6 @@
+source.html is needed to run the parser. it should contain the page with all the semester offerings.
+
+steps:
+1. access page with all the semester offerings from the browser
+2. copy request as Curl request
+3. Curl **stuff** >> source.html
