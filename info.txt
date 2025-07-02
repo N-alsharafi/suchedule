@@ -3,4 +3,8 @@ source.html is needed to run the parser. it should contain the page with all the
 steps:
 1. access page with all the semester offerings from the browser
 2. copy request as Curl request
-3. Curl **stuff** >> source.html
+3. Curl **stuff** >> source.html, might have to save the page manually cuz that didn't work.
+4. open the parser and update the output file names
+5. run the parser
+6. update the semester and data version on suchedule.js and suchedule.min.js files
+7. busybox httpd -f -v -p 80 index.html
