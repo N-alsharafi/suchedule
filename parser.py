@@ -2,8 +2,8 @@ import json
 from bs4 import BeautifulSoup
 
 INPUT_FILE_NAME = 'source.html'
-OUTPUT_FILE_NAME = 'data-v42.json'
-OUTPUT_FILE_NAME_MIN = 'data-v42.min.json'
+OUTPUT_FILE_NAME = 'data-v43.json'
+OUTPUT_FILE_NAME_MIN = 'data-v43.min.json'
 
 
 def map_time_to_blocks(time_string):
